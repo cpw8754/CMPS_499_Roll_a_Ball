@@ -22,5 +22,13 @@ public class Camera_Controller : MonoBehaviour
     void LateUpdate()
     {
         transform.position = player.transform.position + offset;
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            transform.Rotate(0, -.5f, 0);
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            transform.Rotate(0, .5f, 0);
+        }
     }
 }
