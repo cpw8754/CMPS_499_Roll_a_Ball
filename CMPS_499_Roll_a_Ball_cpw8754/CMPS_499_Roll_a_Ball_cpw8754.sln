@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{B823F73B-9ACB-C43E-0592-025AEDF250F1}") = "CMPS_499_Roll_a_Ball_cpw8754", "Assembly-CSharp.csproj", "{BB256505-6FC9-83EC-BBF7-9CC3B4B37072}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMPS_499_Roll_a_Ball_cpw8754", "CMPS_499_Roll_a_Ball_cpw8754.csproj", "{5E7066FC-2BD4-7A9A-0786-7B6E515F0FCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BB256505-6FC9-83EC-BBF7-9CC3B4B37072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB256505-6FC9-83EC-BBF7-9CC3B4B37072}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB256505-6FC9-83EC-BBF7-9CC3B4B37072}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB256505-6FC9-83EC-BBF7-9CC3B4B37072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7066FC-2BD4-7A9A-0786-7B6E515F0FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7066FC-2BD4-7A9A-0786-7B6E515F0FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7066FC-2BD4-7A9A-0786-7B6E515F0FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7066FC-2BD4-7A9A-0786-7B6E515F0FCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

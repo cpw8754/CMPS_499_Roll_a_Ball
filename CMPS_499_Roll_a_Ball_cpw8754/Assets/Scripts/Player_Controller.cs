@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player_Controller : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class Player_Controller : MonoBehaviour
     [SerializeField]
     private bool inAir = false;
 
+
     // Use this for initialization
 	void Start ()
     {
@@ -32,11 +34,17 @@ public class Player_Controller : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-        if (rb.transform.position.y <= 0.75)
+        if (rb.velocity.y <= 0.1f)
         {
             inAir = false;
         }
-	}
+
+        if (transform.position.y < -5)
+        {
+            rb.velocity = Vector3.zero;
+            transform.position = Vector3.zero;
+        }
+    }
 
     void FixedUpdate()
     {
@@ -74,7 +82,7 @@ public class Player_Controller : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        if (count >= 9)
+        if (count >= 14)
         {
             winText.text = "You Win!";
         }
