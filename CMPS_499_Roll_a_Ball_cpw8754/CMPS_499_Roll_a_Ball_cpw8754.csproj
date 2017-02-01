@@ -76,6 +76,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera_Controller.cs" />
+    <Compile Include="Assets\Scripts\Platform_Diagonal_Movement.cs" />
+    <Compile Include="Assets\Scripts\Platform_X_Movement.cs" />
+    <Compile Include="Assets\Scripts\Platform_Z_Movement.cs" />
     <Compile Include="Assets\Scripts\Player_Controller.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
   </ItemGroup>
